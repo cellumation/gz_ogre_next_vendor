@@ -2,8 +2,8 @@
 Changelog for package gz_ogre_next_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.1 (2025-11-24)
+------------------
 * Mark gz_cmake_vendor as a build dependency #10
 * Merge pull request `#9 <https://github.com/gazebo-release/gz_ogre_next_vendor/issues/9>`_ from gazebo-release/jrivero/missing_atomic
   * Missing atomic depends. 0.2.0
