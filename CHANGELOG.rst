@@ -2,8 +2,8 @@
 Changelog for package gz_ogre_next_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.2.1 (2026-04-30)
+------------------
 * Apply cxx20-constexpr patch for Resolute  (`#13 <https://github.com/gazebo-release/gz_ogre_next_vendor/issues/13>`_)
   Co-authored-by: Jose Luis Rivero <jrivero@honurobitcs.com>
 * Contributors: Addisu Z. Taddese
