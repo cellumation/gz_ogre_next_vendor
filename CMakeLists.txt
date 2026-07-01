@@ -29,17 +29,17 @@ if(NOT $ENV{GZ_RELAX_VERSION_MATCH} STREQUAL "")
   set(VERSION_MATCH "")
 endif()
 
-gz_find_package(GzOGRE2
-  EXACT ${VERSION_MATCH}
-  VERSION ${LIB_VER}
-  COMPONENTS
-  HlmsPbs
-  HlmsUnlit
-  Overlay
-  PlanarReflections
-  PRIVATE_FOR ogre2
-  QUIET
-)
+# gz_find_package(GzOGRE2
+#   EXACT ${VERSION_MATCH}
+#   VERSION ${LIB_VER}
+#   COMPONENTS
+#   HlmsPbs
+#   HlmsUnlit
+#   Overlay
+#   PlanarReflections
+#   PRIVATE_FOR ogre2
+#   QUIET
+# )
 
 set(EXTRA_CMAKE_FLAGS)
 if(CMAKE_SYSTEM_PROCESSOR MATCHES "^(aarch64.*|AARCH64.*|arm64.*|ARM64.*|arm.*|ARM.*)")
@@ -50,8 +50,8 @@ endif()
 
 ament_vendor(${PROJECT_NAME}
 SATISFIED ${OGRE2_FOUND}
-VCS_URL https://github.com/OGRECave/ogre-next.git
-  VCS_VERSION v${LIB_VER}
+VCS_URL https://github.com/cellumation/ogre-next.git
+  VCS_VERSION updateFix2
   CMAKE_ARGS
     -DOGRE_STATIC:BOOL=OFF
     -DOGRE_BUILD_COMPONENT_OVERLAY:BOOL=ON
